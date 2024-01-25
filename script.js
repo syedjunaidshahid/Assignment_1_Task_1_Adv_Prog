@@ -1,5 +1,5 @@
 // Create a Leaflet map
-var mymap = L.map('map').setView([38.627, -90.1994], 12);
+var mymap = L.map('mymap').setView([38.627, -90.1994], 12);
 
 // Add a tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
